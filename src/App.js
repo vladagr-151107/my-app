@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Result from "./Result";
 import axios from "axios";
 import "./App.css";
-function App() {
+export default function App() {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState("Odesa");
   function showTemperature(response) {
@@ -89,4 +89,3 @@ function App() {
     return "Loading";
   }
 }
-export default App();
