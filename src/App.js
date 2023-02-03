@@ -65,7 +65,7 @@ export default function App() {
             <Result result={weatherData} />
             <small>
               <a
-                href="https://github.com/vladagr-151107/vanilla-weather-app"
+                href="https://github.com/vladagr-151107/my-app"
                 target="_blank"
                 rel="noreferrer"
               >
