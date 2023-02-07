@@ -63,24 +63,24 @@ export default function App() {
               </div>
             </form>
             <Result result={weatherData} />
-            <small>
-              <a
-                href="https://github.com/vladagr-151107/my-app"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Open-source code
-              </a>{" "}
-              by{" "}
-              <a
-                href="https://www.instagram.com/_princesska_1511_/?igshid=YmMyMTA2M2Y%3D"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Vlada Grushchenko
-              </a>
-            </small>
           </div>
+          <small>
+            <a
+              href="https://github.com/vladagr-151107/my-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open-source code
+            </a>{" "}
+            by{" "}
+            <a
+              href="https://www.instagram.com/_princesska_1511_/?igshid=YmMyMTA2M2Y%3D"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Vlada Grushchenko
+            </a>
+          </small>
         </div>
       </div>
     );
